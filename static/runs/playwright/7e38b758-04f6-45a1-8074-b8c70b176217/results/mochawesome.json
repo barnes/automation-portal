@@ -1,0 +1,92 @@
+{
+    "stats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "Wed May 08 2024 16:02:53 GMT-0400 (Eastern Daylight Time)",
+        "end": "Wed May 08 2024 16:02:59 GMT-0400 (Eastern Daylight Time)",
+        "duration": 1494,
+        "testsRegistered": 1,
+        "passPercent": 100,
+        "pendingPercent": 0,
+        "other": 0,
+        "hasOther": false,
+        "skipped": 0,
+        "hasSkipped": false
+    },
+    "results": [
+        {
+            "uuid": "",
+            "title": "",
+            "fullFile": "",
+            "file": "",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [],
+            "suites": [
+                {
+                    "uuid": "f4d681c2-52a1-4b97-99f2-fccf69df389c",
+                    "title": "demo.spec.ts",
+                    "fullFile": "/Users/ryan.barnes/presentation-repo/ondemand-demo/tests/playwright/demo.spec.ts",
+                    "file": "demo.spec.ts",
+                    "beforeHooks": [],
+                    "afterHooks": [],
+                    "tests": [
+                        {
+                            "parentTitle": "demo.spec.ts",
+                            "title": "Page has expected title",
+                            "fullTitle": "demo.spec.ts Page has expected title",
+                            "timedOut": false,
+                            "duration": 1494,
+                            "state": "passed",
+                            "speed": "slow",
+                            "pass": true,
+                            "fail": false,
+                            "pending": false,
+                            "context": "[{\"title\":\"screenshot\",\"value\":\"/Users/ryan.barnes/presentation-repo/ondemand-demo/static/runs/playwright/undefined/results/demo-Page-has-expected-title-chromium/test-finished-1.png\"}]",
+                            "code": "//Step: browserType.launch | Category: pw:api | Duration: 3915\n//Step: fixture: browser | Category: fixture | Duration: 3916\n//Step: browser.newContext | Category: pw:api | Duration: 3\n//Step: fixture: context | Category: fixture | Duration: 7\n//Step: browserContext.newPage | Category: pw:api | Duration: 113\n//Step: fixture: page | Category: fixture | Duration: 113\n//Step: Before Hooks | Category: hook | Duration: 4041\n//Step: page.goto(http://google.com) | Category: pw:api | Duration: 1213\n//Step: page.title | Category: pw:api | Duration: 1\n//Step: page.screenshot | Category: pw:api | Duration: 54\n//Step: expect.toBe | Category: expect | Duration: 1\n//Step: page.screenshot | Category: pw:api | Duration: 46\n//Step: attach \"screenshot\" | Category: attach | Duration: 0\n//Step: fixture: page | Category: fixture | Duration: 0\n//Step: fixture: context | Category: fixture | Duration: 0\n//Step: video.saveAs | Category: pw:api | Duration: 1\n//Step: attach \"video\" | Category: attach | Duration: 1\n//Step: After Hooks | Category: hook | Duration: 100",
+                            "err": {},
+                            "uuid": "fc9fa383-2e7e-4940-8f3f-cfb2825eedb0",
+                            "isHook": false,
+                            "skipped": false
+                        }
+                    ],
+                    "suites": [],
+                    "passes": [
+                        "fc9fa383-2e7e-4940-8f3f-cfb2825eedb0"
+                    ],
+                    "failures": [],
+                    "pending": [],
+                    "skipped": [],
+                    "duration": 1494,
+                    "root": false,
+                    "rootEmpty": false,
+                    "_timeout": 0
+                }
+            ],
+            "passes": [],
+            "failures": [],
+            "pending": [],
+            "skipped": [],
+            "duration": 0,
+            "root": true,
+            "rootEmpty": true,
+            "_timeout": 0
+        }
+    ],
+    "meta": {
+        "mochawesome": {
+            "options": {},
+            "version": "7.0.1"
+        },
+        "marge": {
+            "options": {},
+            "version": "6.2.0"
+        },
+        "mocha": {
+            "version": "7.0.1"
+        }
+    }
+}

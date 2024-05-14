@@ -1,0 +1,131 @@
+{
+  "config": {
+    "configFile": "/Users/ryan.barnes/presentation-repo/ondemand-demo/playwright.config.ts",
+    "rootDir": "/Users/ryan.barnes/presentation-repo/ondemand-demo/tests/playwright",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "/Users/ryan.barnes/presentation-repo/ondemand-demo/node_modules/pwmochawesome/dist/index.js",
+        {
+          "reportDir": "./static/runs/playwright/7e38b758-04f6-45a1-8074-b8c70b176217/results",
+          "outputJSON": true
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./static/runs/playwright/7e38b758-04f6-45a1-8074-b8c70b176217/result.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "./static/runs/playwright/7e38b758-04f6-45a1-8074-b8c70b176217/html",
+          "open": "never",
+          "assets": {
+            "inline": true
+          }
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/ryan.barnes/presentation-repo/ondemand-demo/static/runs/playwright/undefined/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/ryan.barnes/presentation-repo/ondemand-demo/tests/playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.44.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "demo.spec.ts",
+      "file": "demo.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Page has expected title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1494,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-05-08T20:02:53.716Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/ryan.barnes/presentation-repo/ondemand-demo/static/runs/playwright/undefined/results/demo-Page-has-expected-title-chromium/test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/ryan.barnes/presentation-repo/ondemand-demo/static/runs/playwright/undefined/results/demo-Page-has-expected-title-chromium/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "05384557491ebd602dd7-de81fa7e0b6ac7c59706",
+          "file": "demo.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-05-08T20:02:53.361Z",
+    "duration": 5793.064,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
